@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AlipayCopy_Example' do
+  pod 'AlipayCopy', :path => '../'
+
+  target 'AlipayCopy_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

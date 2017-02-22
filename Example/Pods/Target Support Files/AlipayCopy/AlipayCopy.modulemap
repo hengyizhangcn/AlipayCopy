@@ -1,0 +1,6 @@
+framework module AlipayCopy {
+  umbrella header "AlipayCopy-umbrella.h"
+
+  export *
+  module * { export * }
+}
